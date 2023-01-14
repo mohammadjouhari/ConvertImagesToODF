@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "dgSpecHash": "iJ1QN8Vw0D7MfPYmMmrRBqwkFWbt03DlNWxz+SF4+1yE5BxIwAKDLK3MDfBtKC8somPCkLiG8j51m7OYLTkLJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m_243\\OneDrive\\Desktop\\microsoft documentation\\.net core\\ConvertImagesToPdfv2\\ConvertImagesToPdfv2\\ConvertImagesToPdfv2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m_243\\.nuget\\packages\\common.logging\\2.1.1\\common.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\nreco.pdfgenerator\\1.2.1\\nreco.pdfgenerator.1.2.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\pechkin\\0.5.8.1\\pechkin.0.5.8.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\pechkin.synchronized\\0.5.8.1\\pechkin.synchronized.0.5.8.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\tuespechkin\\2.1.1\\tuespechkin.2.1.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\tuespechkin.wkhtmltox.anycpu\\0.12.4.1\\tuespechkin.wkhtmltox.anycpu.0.12.4.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\tuespechkin.wkhtmltox.win32\\0.12.2.1\\tuespechkin.wkhtmltox.win32.0.12.2.1.nupkg.sha512",
+    "C:\\Users\\m_243\\.nuget\\packages\\tuespechkin.wkhtmltox.win64\\0.12.2.1\\tuespechkin.wkhtmltox.win64.0.12.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Common.Logging 2.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Common.Logging",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Pechkin 0.5.8.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Pechkin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Pechkin.Synchronized 0.5.8.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Pechkin.Synchronized",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TuesPechkin 2.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TuesPechkin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TuesPechkin.Wkhtmltox.AnyCPU 0.12.4.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TuesPechkin.Wkhtmltox.AnyCPU",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TuesPechkin.Wkhtmltox.Win32 0.12.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TuesPechkin.Wkhtmltox.Win32",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TuesPechkin.Wkhtmltox.Win64 0.12.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TuesPechkin.Wkhtmltox.Win64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

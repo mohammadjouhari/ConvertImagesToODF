@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConvertImagesToPdfv2/1.0.0": {
+        "dependencies": {
+          "Pechkin.Synchronized": "0.5.8.1"
+        },
+        "runtime": {
+          "ConvertImagesToPdfv2.dll": {}
+        }
+      },
+      "Common.Logging/2.1.1": {
+        "runtime": {
+          "lib/net40/Common.Logging.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "Pechkin/0.5.8.1": {
+        "dependencies": {
+          "Common.Logging": "2.1.1"
+        },
+        "runtime": {
+          "lib/net40/Pechkin.dll": {
+            "assemblyVersion": "0.5.8.1",
+            "fileVersion": "0.5.8.1"
+          }
+        }
+      },
+      "Pechkin.Synchronized/0.5.8.1": {
+        "dependencies": {
+          "Common.Logging": "2.1.1",
+          "Pechkin": "0.5.8.1"
+        },
+        "runtime": {
+          "lib/net40/Pechkin.Synchronized.dll": {
+            "assemblyVersion": "0.5.8.1",
+            "fileVersion": "0.5.8.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConvertImagesToPdfv2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Logging/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H0inS2nL8v6V2fT9lpBoXftvTx/0qqo1cewXqaaHkVXe4G5MQaGj6Mb6HdJsv2Qy+q7p+BEr7t/nTzqNuTFSUw==",
+      "path": "common.logging/2.1.1",
+      "hashPath": "common.logging.2.1.1.nupkg.sha512"
+    },
+    "Pechkin/0.5.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WRwcK0UZ1Tho/nJ3mFtINoxk93EED24ccbecefx/BAF/PpVzjif/3ozy0uh0aaymlLIuSL0LEhzDXdNG149tZw==",
+      "path": "pechkin/0.5.8.1",
+      "hashPath": "pechkin.0.5.8.1.nupkg.sha512"
+    },
+    "Pechkin.Synchronized/0.5.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+JlgpGPxOsdUj2OeTrLdBOEfunyFZfQ3yMR96oYGbWjUTTMqEjJLGUk4UJngPYtEiOrJa9g50PhyVnK7Nlgww==",
+      "path": "pechkin.synchronized/0.5.8.1",
+      "hashPath": "pechkin.synchronized.0.5.8.1.nupkg.sha512"
+    }
+  }
+}

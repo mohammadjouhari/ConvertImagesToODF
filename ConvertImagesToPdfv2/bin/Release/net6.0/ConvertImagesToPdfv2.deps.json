@@ -1,0 +1,297 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConvertImagesToPdfv2/1.0.0": {
+        "dependencies": {
+          "NReco.PdfGenerator": "1.2.1",
+          "Pechkin": "0.5.8.1",
+          "Pechkin.Synchronized": "0.5.8.1",
+          "System.Configuration.ConfigurationManager": "7.0.0",
+          "TuesPechkin.Wkhtmltox.AnyCPU": "0.12.4.1",
+          "TuesPechkin.Wkhtmltox.Win32": "0.12.2.1",
+          "TuesPechkin.Wkhtmltox.Win64": "0.12.2.1"
+        },
+        "runtime": {
+          "ConvertImagesToPdfv2.dll": {}
+        }
+      },
+      "Common.Logging/2.1.1": {
+        "runtime": {
+          "lib/net40/Common.Logging.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "NReco.PdfGenerator/1.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/NReco.PdfGenerator.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
+      "Pechkin/0.5.8.1": {
+        "dependencies": {
+          "Common.Logging": "2.1.1"
+        },
+        "runtime": {
+          "lib/net40/Pechkin.dll": {
+            "assemblyVersion": "0.5.8.1",
+            "fileVersion": "0.5.8.1"
+          }
+        }
+      },
+      "Pechkin.Synchronized/0.5.8.1": {
+        "dependencies": {
+          "Common.Logging": "2.1.1",
+          "Pechkin": "0.5.8.1"
+        },
+        "runtime": {
+          "lib/net40/Pechkin.Synchronized.dll": {
+            "assemblyVersion": "0.5.8.1",
+            "fileVersion": "0.5.8.1"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/7.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "7.0.0",
+          "System.Security.Permissions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/7.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Security.Permissions/7.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Windows.Extensions/7.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "TuesPechkin/2.1.1": {
+        "runtime": {
+          "lib/net20/TuesPechkin.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "TuesPechkin.Wkhtmltox.AnyCPU/0.12.4.1": {
+        "dependencies": {
+          "TuesPechkin": "2.1.1"
+        },
+        "runtime": {
+          "lib/net20/TuesPechkin.Wkhtmltox.AnyCPU.dll": {
+            "assemblyVersion": "0.12.4.1",
+            "fileVersion": "0.12.4.1"
+          }
+        }
+      },
+      "TuesPechkin.Wkhtmltox.Win32/0.12.2.1": {
+        "runtime": {
+          "lib/net20/TuesPechkin.Wkhtmltox.Win32.dll": {
+            "assemblyVersion": "0.12.2.1",
+            "fileVersion": "0.12.2.1"
+          }
+        }
+      },
+      "TuesPechkin.Wkhtmltox.Win64/0.12.2.1": {
+        "runtime": {
+          "lib/net20/TuesPechkin.Wkhtmltox.Win64.dll": {
+            "assemblyVersion": "0.12.2.1",
+            "fileVersion": "0.12.2.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConvertImagesToPdfv2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Logging/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H0inS2nL8v6V2fT9lpBoXftvTx/0qqo1cewXqaaHkVXe4G5MQaGj6Mb6HdJsv2Qy+q7p+BEr7t/nTzqNuTFSUw==",
+      "path": "common.logging/2.1.1",
+      "hashPath": "common.logging.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "NReco.PdfGenerator/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YONMIaSBJO/0FKcXMyO1KZWc83IqfrbBKw5fcRxrwgxzv5r89rh/Z6r7ukuJmx+ra3m6jz6gmaEYXFWV3dKTmg==",
+      "path": "nreco.pdfgenerator/1.2.1",
+      "hashPath": "nreco.pdfgenerator.1.2.1.nupkg.sha512"
+    },
+    "Pechkin/0.5.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WRwcK0UZ1Tho/nJ3mFtINoxk93EED24ccbecefx/BAF/PpVzjif/3ozy0uh0aaymlLIuSL0LEhzDXdNG149tZw==",
+      "path": "pechkin/0.5.8.1",
+      "hashPath": "pechkin.0.5.8.1.nupkg.sha512"
+    },
+    "Pechkin.Synchronized/0.5.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+JlgpGPxOsdUj2OeTrLdBOEfunyFZfQ3yMR96oYGbWjUTTMqEjJLGUk4UJngPYtEiOrJa9g50PhyVnK7Nlgww==",
+      "path": "pechkin.synchronized/0.5.8.1",
+      "hashPath": "pechkin.synchronized.0.5.8.1.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvRUdlL1lB0dTRZSs5XcQOd5q9MYNk90GkbmRmiCvRHThWiojkpGqWdmEDJdXyHbxG/BhE5hmVbMfRLXW9FJVA==",
+      "path": "system.configuration.configurationmanager/7.0.0",
+      "hashPath": "system.configuration.configurationmanager.7.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xSPiLNlHT6wAHtugASbKAJwV5GVqQK351crnILAucUioFqqieDN79evO1rku1ckt/GfjIn+b17UaSskoY03JuA==",
+      "path": "system.security.cryptography.protecteddata/7.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.7.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vmp0iRmCEno9BWiskOW5pxJ3d9n+jUqKxvX4GhLwFhnQaySZmBN2FuC0N5gjFHgyFMUjC5sfIJ8KZfoJwkcMmA==",
+      "path": "system.security.permissions/7.0.0",
+      "hashPath": "system.security.permissions.7.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
+      "path": "system.windows.extensions/7.0.0",
+      "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "TuesPechkin/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MFuGEgRz7cbJoxhy52WiKb1g8LoJyzAb7j8UbTyXUxqHh87QHS7Hlrow9FeWsk8QDlEbA5yIPAulJN30HmPatQ==",
+      "path": "tuespechkin/2.1.1",
+      "hashPath": "tuespechkin.2.1.1.nupkg.sha512"
+    },
+    "TuesPechkin.Wkhtmltox.AnyCPU/0.12.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PIypqsiemAwIUhHF/ejjQlWoGVToDiG4YpUnyGxlySbPPNfqcn/7oHg40iVOfSY0kWYjic/v3UazsVESJejXyA==",
+      "path": "tuespechkin.wkhtmltox.anycpu/0.12.4.1",
+      "hashPath": "tuespechkin.wkhtmltox.anycpu.0.12.4.1.nupkg.sha512"
+    },
+    "TuesPechkin.Wkhtmltox.Win32/0.12.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0qNj0UBlmsDhzkIuTThVkANSsTFblagK3bIj0ioZ3NDiWIo41Yn8kjXFT5NRSfLGaC7LsGh9xm25AYM8RBC+FQ==",
+      "path": "tuespechkin.wkhtmltox.win32/0.12.2.1",
+      "hashPath": "tuespechkin.wkhtmltox.win32.0.12.2.1.nupkg.sha512"
+    },
+    "TuesPechkin.Wkhtmltox.Win64/0.12.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O/vHRWTmSVe8p6HmtWKdpw3j/YrVohEX4IHebjRnECEUKOKPTxHNUzIlrDuzpr0ouldq3Xrm7JhVZ1u4kAKNNQ==",
+      "path": "tuespechkin.wkhtmltox.win64/0.12.2.1",
+      "hashPath": "tuespechkin.wkhtmltox.win64.0.12.2.1.nupkg.sha512"
+    }
+  }
+}

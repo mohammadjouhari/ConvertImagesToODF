@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MJ Convert Images to PDF</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body class="is-preload">
+    <header id="header">
+        <h1> Convert Images to PDF</h1>
+        <p>
+            A simple template for Converting Images to PDF By Mohammad Jouhari
+        </p>
+        <a href="http://mohammad.co.nz/personalwebsite">Check My work, my personal website</a>
+    </header>
+    <br />
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="UploadPdf" />
+        <input type="submit" value="Convert" />
+    </form>
+    <script src="~/js/main.js"></script>
+</body>
+</html>

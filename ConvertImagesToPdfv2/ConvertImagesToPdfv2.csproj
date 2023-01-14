@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Use64BitIISExpress>false</Use64BitIISExpress>
+	<Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NReco.PdfGenerator" Version="1.2.1" />
+    <PackageReference Include="Pechkin" Version="0.5.8.1" />
+    <PackageReference Include="Pechkin.Synchronized" Version="0.5.8.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="TuesPechkin.Wkhtmltox.AnyCPU" Version="0.12.4.1" />
+    <PackageReference Include="TuesPechkin.Wkhtmltox.Win32" Version="0.12.2.1" />
+    <PackageReference Include="TuesPechkin.Wkhtmltox.Win64" Version="0.12.2.1" />
+  </ItemGroup>
+
+</Project>
